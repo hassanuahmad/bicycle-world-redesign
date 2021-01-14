@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+
+        <!-- Bootstrap Import -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+        <title>Home</title>
+    </head>
+<body>
+
+  <!--Nav Bar-->
+
+  <nav class="navbar navbar-expand-lg m-0 p-0 justify-content-center">
+    
+    <div class="col-lg-4">
+      <a class="d-flex navbar-brand align-items-center justify-content-center" href="index.html">
+        <img src="logos/logoGreen.png" width="300" height="40" class="d-inline-block align-top" alt="">
+      </a>
+    </div>
+
+    <div class="d-flex">
+      <ul class="navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="brand.html">Brands</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="trail.html">Trail Maps</a></li>
+        <li><a href="contact.html">Contact</a></li>  
+      </ul>
+    </div>
+
+  </nav>
+
+  <!--Heading & Icon & Small Description-->
+
+  <div class="d-flex pt-3 justify-content-center">
+      <h1 class="text1">CONTACT US</h1>
+  </div>
+
+  <div class="d-flex justify-content-center">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#026670" class="bi bi-bicycle" viewBox="0 0 16 16">
+        <path d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443l-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057L9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z"/>
+    </svg>
+  </div>  
+
+  <div class="d-flex pt-3 justify-content-center">
+    <p class="smallText">Contact us through the contact form or you can call us at 519-966-7985</p>
+  </div>
+
+   <!-- Contact From -->
+
+   <div class="contactForm">
+
+    <div class="d-flex container justify-content-center">
+      <form class="col-lg-4" action="contact.php" method="POST">
+
+        <div class="contact-form row">
+          <div class="form-field">
+            <input id="name" class="input-text" type="text" name="name" required>
+            <label for="name" class="label">name</label>
+          </div>
+        </div>
+
+        <div class="contact-form row">
+          <div class="form-field">
+            <input id="subject" class="input-text" type="text" name="subject" required>
+            <label for="subject" class="label">subject</label>
+          </div>
+        </div>
+
+        <div class="contact-form row">
+          <div class="form-field">
+            <input id="email" class="input-text" type="email" name="email" required>
+            <label for="email" class="label">email</label>
+          </div>
+        </div>
+
+        <div class="contact-form row">       
+          <div class="form-field">
+            <input id="message" class="input-text" type="text" name="message" required>
+            <label for="message" class="label">message</label>
+          </div>
+        </div>
+
+        <div class="contact-form row">
+          <div class="d-flex form-field justify-content-center">
+            <input class="submit" type="submit" value="submit" name="submit">
+          </div>
+        </div>
+
+      </form>
+
+      <div class="d-flex flex-column p-5 me-5 ms-5 ml-5 justify-content-center">
+        
+        <div class="hours d-flex flex-column align-items-center justify-content-center">
+          <h1 class="heading d-flex flex-column align-items-center">HOURS</h1>
+          <p class="smallTextforBrands">Monday<b>-</b>Friday<b>:</b> 9am - 6pm</p>
+          <p class="smallTextforBrands">Saturday<b>:</b> 9am - 5pm</p>
+          <p class="smallTextforBrands">Sunday Gone Riding!</p>
+        </div>
+
+        <div class="contactInfo d-flex flex-column align-items-center">
+          <h1 class="heading d-flex flex-column align-items-center justify-content-center">CONTACT INFO</h1>
+          <p class="smallTextforBrands">1267 Grand Marais W.</p>
+          <p class="smallTextforBrands">Windsor, ON N9E 1E1</p>
+          <p class="smallTextforBrands">bicycleworld@gmail.com</p>
+          <p class="smallTextforBrandsPhone">519-966-7985</p>
+        </div>
+
+      </div>
+
+      <div class="storeMap col-lg-4 d-flex flex-column align-items-center justify-content-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11809.858767795806!2d-83.03395113022461!3d42.26860290000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2c25631f9b19%3A0x22427a0ea944da!2sBicycle%20World!5e0!3m2!1sen!2sca!4v1609486698579!5m2!1sen!2sca" width="400" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></src=>" width="250" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>  
+
+
+    </div>
+  </div>
+
+</body>
+</html>

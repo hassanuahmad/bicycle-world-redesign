@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%
+}
+
+.navbar-nav a, .overlay__content a {
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  color: #026670;
+  text-decoration: none;
+}
+
+.navbar-nav li {
+  padding: 25px 30px;
+}
+
+.navbar-nav li a {
+  transition: color 0.3s ease 0s;
+}
+
+.navbar-nav li a:hover {
+  color: #9fedd7;
+}
+
+header {
+  background-image: url("img/b1.jpg");
+  height:100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainText {
+  height: 50vh;
+}
+
+.text1 {
+  font-family: 'Montserrat', sans-serif;  font-weight: bold;
+  font-size: 400%;
+  color: #026670;
+
+  /* background-image: linear-gradient(45deg, #026670 80%, #9fedd7);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent; */
+}
+
+.text2 {
+  font-family: 'Montserrat', sans-serif;  font-size: 200%;
+  color: #026670;
+
+  /* background-image: linear-gradient(45deg, #026670, #9fedd7);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent; */
+}
+
+.aboutPic {
+  border: 5px solid #026670;
+}
+
+.contactBtn {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 16px 16px;
+  border-radius: 100px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #026670, #9fedd7);
+  transition: background-image 0.5s;
+}
+
+.contactBtn:hover {
+  background-image: linear-gradient(to right, #fce181, #fef9c7);
+  background-position: right center;
+  color: #000000;
+  transition: 0.5s;
+}
+
+.smallText {
+  font-family: 'Montserrat', sans-serif;  text-align: justify;
+  font-size: large;
+  color: #026670;
+  line-height: 30px;
+}
+
+.smallText a {
+  text-decoration: none;
+}
+
+.bwSkate {
+  font-weight: bold;
+  color: #026670;
+}
+
+.bwSkate:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #026670;
+}
+
+.smallText1 {
+  font-family: 'Montserrat', sans-serif;  text-align: justify;
+  font-size: large;
+  color: #026670;
+  line-height: 30px;
+}
+
+.smallTextforBrands {
+  font-family: 'Montserrat', sans-serif;  text-align: justify;
+  font-size: 14px;
+  color: #026670;
+  line-height: 20px;
+}
+
+.smallTextforBrandsPhone {
+  font-family: 'Montserrat', sans-serif;  text-align: justify;
+  font-size: 18px;
+  color: #026670;
+  line-height: 20px;
+  font-weight: bolder;
+}
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #026670;
+  line-height: 30px;
+}
+
+.headingTrail {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  font-size: x-large;
+  font-weight: bolder;
+  line-height: 30px;
+}
+
+.headingTrail a {
+  color: #026670;
+  text-decoration: none;
+}
+
+.headingTrailPDF:hover {
+  text-decoration: underline;
+  color: #026670;
+}
+
+/*Contact Form*/
+
+.contactForm {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3em;
+  line-height: 58px;
+  color: #026670;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+  background: transparent;
+}
+
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  color: #026670;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  background: transparent;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text .not-empty + .label,
+.contact-form .input-text:valid + .label {
+  transform: translateY(-24px);
+}
+
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+.contact-form .label {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #026670;
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+  background: transparent;
+}
+
+.contact-form .submit {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 1000px;
+  cursor: pointer;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #026670, #9fedd7);
+  transition: background-image 0.5s;
+  border-radius: 100px;
+}
+
+.contact-form .submit:hover {
+  background-image: linear-gradient(to right, #fce181, #fef9c7);
+  background-position: right center;
+  color: black;
+  transition: 0.5s;
+}
+
+.contactInfo {
+  padding-top: 100px;
+}
