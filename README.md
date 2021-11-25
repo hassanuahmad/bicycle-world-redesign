@@ -1,8 +1,8 @@
 # bicycle-world-redesign
 A website redesign for a local bicycle shop in Windsor, ON Canada. 
-### Current Home Page:
+### Current Home Page
 ![Screenshot](current-home-page.png)  
-### Redesigned Home Page:
+### Redesigned Home Page
 ![Screenshot](redesigned-home-page.png)  
 ## Tech Stack
  - HTML/CSS
